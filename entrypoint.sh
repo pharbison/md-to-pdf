@@ -8,7 +8,7 @@ elif [ -f "${INPUT_MD_SRC}" ]
 then
     cp "${INPUT_MD_SRC}" /tmp/temp.md
 else
-    echo "Something unknown happenen"
+    echo "Something unknown happened"
     exit 1
 fi
 
